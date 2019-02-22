@@ -6,7 +6,7 @@ using System.Text;
 
 namespace GardenPlanner
 {
-    class GrardenPicture
+    public class GrardenPicture
     {
         private Point toado;
         private float dai;
@@ -22,9 +22,9 @@ namespace GardenPlanner
         public float Gocxoay { get => gocxoay; set => gocxoay = value; }
         public float Dophong { get => dophong; set => dophong = value; }
 
-        public void test()
+        public void Draw(Graphics g)
         {
-               
+            g.DrawImage(Hinh, Toado);
         }
 
     }

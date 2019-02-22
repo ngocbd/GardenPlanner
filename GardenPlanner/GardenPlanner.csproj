@@ -76,7 +76,13 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="tree.jpg">
+    <Content Include="CAY1.PNG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="CAY2.PNG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="CAY3.PNG">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
